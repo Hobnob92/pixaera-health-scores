@@ -500,7 +500,7 @@ function sortBy(col){
 }
 
 function tog(uid){var row=document.getElementById(uid),chev=document.getElementById('cv'+uid);if(!row)return;var h=row.style.display==='none';row.style.display=h?'table-row':'none';if(h)chev.classList.add('open');else chev.classList.remove('open');}
-function getKey(){return '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';}
+function getKey(){return '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';}
 function saveKey(){var k=document.getElementById('api-key-input').value.trim();if(!k.startsWith('sk-ant-')){alert('Key should start with sk-ant-');return;}localStorage.setItem('px_api_key',k);showDash();loadData();}
 function clearKey(){localStorage.removeItem('px_api_key');location.reload();}
 function showDash(){document.getElementById('setup-panel').style.display='none';document.getElementById('dashboard').style.display='block';}
